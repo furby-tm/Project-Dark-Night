@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'black';
+    src: url('./assets/fonts/gt-walsheim-black-webfont.woff2') format('woff2'),
+         url('./assets/fonts/gt-walsheim-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'bold';
+    src: url('./assets/fonts/gt-walsheim-bold-webfont.woff2') format('woff2'),
+         url('./assets/fonts/gt-walsheim-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'oblique';
+    src: url('./assets/fonts/gt-walsheim-medium-oblique-webfont.woff2') format('woff2'),
+         url('./assets/fonts/gt-walsheim-medium-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'medium';
+    src: url('./assets/fonts/gt-walsheim-medium-webfont.woff2') format('woff2'),
+         url('./assets/fonts/gt-walsheim-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3, h3, h4 {
+  font-family: 'bold';
+}
+
+p {
+  font-family: 'medium'
+}
+
+a {
+  font-family: 'black'
+}
