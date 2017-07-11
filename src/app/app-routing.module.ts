@@ -9,6 +9,7 @@ import { WelcomeComponent } from './welcome.component';
 const routes: Routes = [
   { path: '', redirectTo: '/welcome', pathMatch: 'full' },
   { path: 'welcome', component: WelcomeComponent, data: { name: 'Welcome' } },
+  { path: 'home', component: HomeComponent, data: { name: 'Home' } },
   { path: 'discover',  component: DiscoverComponent, data: { name: 'Discover' } }
 ];
 
