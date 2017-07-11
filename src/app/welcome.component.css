@@ -1,0 +1,32 @@
+section {
+  width: 100%;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+header {
+  font-size: 2vw;
+}
+
+p{
+  font-size: 1vw;
+}
+
+.logo {
+  font-family: 'black';
+  color: #4CAF50;
+}
+
+.bolden {
+  font-family: 'bold';
+}
+
+button {
+  width: 10vw;
+  height: 2vw;
+  border-style: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1vw;
+  font-family: 'black';
+}
