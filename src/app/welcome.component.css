@@ -22,11 +22,16 @@ p{
 }
 
 button {
-  width: 10vw;
-  height: 2vw;
+  width: 12vw;
+  height: 4vw;
   border-style: none;
   background-color: #4CAF50;
   color: white;
-  font-size: 1vw;
+  font-size: 2vw;
   font-family: 'black';
+}
+
+button:hover {
+  background-color: #357A38;
+  color: #b2b2b2;
 }
