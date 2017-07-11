@@ -74,7 +74,6 @@ a {
 }
 
 nav {
-  background-color: black;
   display: inline-block;
   vertical-align: middle;
   height: 8vh;
@@ -104,12 +103,16 @@ li a {
     text-decoration: none;
 }
 
+li a:hover {
+  color: #4CAF50;
+}
+
 .logo a {
   color: #4CAF50;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    color: #4CAF50;
 }
 
 .content {
