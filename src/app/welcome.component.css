@@ -4,23 +4,6 @@ section {
   margin-top: 25vh;
 }
 
-header {
-  font-size: 2vw;
-}
-
-p{
-  font-size: 1vw;
-}
-
-.logo {
-  font-family: 'black';
-  color: #4CAF50;
-}
-
-.bolden {
-  font-family: 'bold';
-}
-
 button {
   width: 12vw;
   height: 4vw;

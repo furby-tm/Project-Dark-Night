@@ -39,6 +39,23 @@
     font-style: normal;
 }
 
+header {
+  font-size: 2vw;
+}
+
+p{
+  font-size: 1vw;
+}
+
+.logo {
+  font-family: 'black';
+  color: #4CAF50;
+}
+
+.bolden {
+  font-family: 'bold';
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -54,4 +71,51 @@ p {
 
 a {
   font-family: 'black'
+}
+
+nav {
+  background-color: black;
+  display: inline-block;
+  vertical-align: middle;
+  height: 8vh;
+  font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo a {
+  color: #4CAF50;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.content {
+  float: right;
+}
+
+.active {
+    background-color: #4CAF50;
 }
