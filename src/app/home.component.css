@@ -1,0 +1,14 @@
+header {
+  text-align: left;
+  position: relative;
+}
+
+a{
+  display: block;
+}
+
+section {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 70%;
+}

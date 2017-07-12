@@ -1,1 +1,8 @@
 <!-- TODO: Declare 'Overview' - (What you missed) page structure -->
+
+  <a *ngFor="let item of newNews | slice:0:1">
+    <section [style.background-image]="'url('+item.image+')'">
+      <header><h1>{{item.name}}</h1></header>
+      <div class="content"><p>{{item.description}}</p></div>
+    </section>
+  </a>

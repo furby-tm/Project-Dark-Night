@@ -40,11 +40,15 @@
 }
 
 header {
-  font-size: 2vw;
+  font-size: 2.2vw;
+}
+
+.active-link {
+  color: #4CAF50;
 }
 
 p{
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .logo {
@@ -78,6 +82,8 @@ nav {
   vertical-align: middle;
   height: 8vh;
   font-size: 24px;
+  z-index: 99;
+  position: absolute;
 }
 
 ul {
@@ -101,6 +107,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 1.2vw;
 }
 
 li a:hover {

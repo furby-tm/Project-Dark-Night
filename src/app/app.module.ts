@@ -9,6 +9,12 @@ import { WelcomeComponent } from './welcome.component';
 import { HomeComponent } from './home.component';
 import { DiscoverComponent } from './discover.component';
 
+import { NewsService } from './news.service';
+
+// Imports for loading & configuring the in-memory web api
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService }  from './in-memory-data.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,9 +26,10 @@ import { DiscoverComponent } from './discover.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    InMemoryWebApiModule.forRoot(InMemoryDataService)
   ],
-  providers: [],
+  providers: [NewsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
