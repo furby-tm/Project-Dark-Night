@@ -5,6 +5,7 @@ import { OnInit } from '@angular/core';
 import { Pipe, PipeTransform } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 
+
 @Component({
   selector: 'home-detail',
   templateUrl: './home.component.html',

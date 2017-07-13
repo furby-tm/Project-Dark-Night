@@ -79,11 +79,7 @@ a {
 
 nav {
   display: inline-block;
-  vertical-align: middle;
-  height: 8vh;
   font-size: 24px;
-  z-index: 99;
-  position: absolute;
 }
 
 ul {
@@ -95,6 +91,9 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    box-shadow: 5px 5px 5px #999;
+       -moz-box-shadow: 5px 5px 5px #999;
+       -webkit-box-shadow: 5px 5px 5px #999;
 }
 
 li {
