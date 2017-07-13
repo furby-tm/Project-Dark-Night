@@ -1,5 +1,5 @@
 <!-- TODO: Declare 'Overview' - (What you missed) page structure -->
-
+<section>
   <a id="featuredNews" class="featuredNews" *ngFor="let item of newNews | slice:0:1">
     <section>
         <div class="background" [style.background-image]="'url('+item.image+')'">
@@ -11,12 +11,15 @@
     </section>
   </a>
 
-  <div class="newscontent" *ngFor="let news of newNews | slice:1">
+  <div class="articles" *ngFor="let news of newNews | slice:1">
+  <div class="newscontent">
     <section>
-      <div class="smallbackground" [style.background-image]="'url('+news.image+')'"></div>
+      <div class="smallbackground" [style.background-image]="'url('+news.image+')'">
         <div class="smallfill">
-          <header><h1><span class="highlight-container"><span class="highlight">{{news.name}}</span></span></h1></header>
-          <p>{{news.description}}</p>
+          <header><h1><span class="highlight-container"><span class="highlight">{{news.name | limitTo: 39}}</span></span></h1></header>
+        </div>
         </div>
     </section>
   </div>
+</div>
+</section>

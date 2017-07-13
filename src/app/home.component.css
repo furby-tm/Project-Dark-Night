@@ -1,8 +1,9 @@
+section {
+  background-color: black;
+}
+
 h1{
   margin: 0;
-}
-.newscontent {
-  margin-top: 50vh;
 }
 .fill {
   padding: 50px;
@@ -61,4 +62,39 @@ h1{
 .highlight-container .highlight {
   color: #fff;
   z-index: 4;
+}
+
+.articles {
+  margin: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  display: inline-flex;
+}
+
+.newscontent section {
+  display: flex;
+  height: 50vh; /* Or whatever */
+}
+
+.articles h1 {
+  font-size: 1.5vw;
+}
+
+.smallfill {
+    padding: 50px;
+    padding-top: 50%;
+    width: 30vw;
+    color: white;
+    text-align: justify;
+}
+
+.smallbackground{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(1,1,1, 0.3);
+  background-blend-mode: darken;
+  width: 32.55vw;
+  height: 37.82vh;
+  color: white;
 }

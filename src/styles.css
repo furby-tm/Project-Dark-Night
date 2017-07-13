@@ -87,13 +87,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #fff;
+    background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 5px 5px 5px #999;
-       -moz-box-shadow: 5px 5px 5px #999;
-       -webkit-box-shadow: 5px 5px 5px #999;
 }
 
 li {

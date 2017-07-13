@@ -1,7 +1,15 @@
-$(document).ready(function() {
+$(document).ready(function(){
+    $('a').hover(function() {
+        $(this).css("cursor", "pointer");
+        $(this).toggle({
+          effect: "scale",
+          percent: "90%"
+        },200);
+    }, function() {
+         $(this).toggle({
+           effect: "scale",
+           percent: "80%"
+         },200);
 
-  $("#featuredNews").hover(function(){
-      alert("FUCK YOU");
     });
-
 });

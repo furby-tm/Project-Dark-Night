@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 import * as $ from 'jquery';
 
+import { TruncatePipe } from './limit-to.pipe';
+
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome.component';
 import { HomeComponent } from './home.component';
@@ -21,7 +23,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
     AppComponent,
     WelcomeComponent,
     HomeComponent,
-    DiscoverComponent
+    DiscoverComponent,
+    TruncatePipe
   ],
   imports: [
     BrowserModule,
