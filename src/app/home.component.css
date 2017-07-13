@@ -27,7 +27,7 @@ h1{
   height: 60vh;
 }
 
-.featuredImage:hover {
+.featuredNews:hover {
     /*text-decoration:underline;*/
     background-image: linear-gradient(180deg, rgba(0,0,0,0) 80%, rgba(0,0,0,1) 20%);
 }
@@ -97,4 +97,48 @@ h1{
   width: 32.55vw;
   height: 37.82vh;
   color: white;
+}
+
+.background {
+  float: left;
+  margin: 0;
+  width: 100vw;
+  height: 60vh;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gray;
+  position: relative;
+}
+
+.background:hover {
+  transition: 150ms;
+  cursor: pointer;
+  background-size: 110%;
+}
+
+.highlight-container:hover {
+  transition: 150ms;
+  transform: rotate(-2deg);
+}
+
+.smallbackground {
+  float: left;
+  margin: 0;
+  width: 32.94vw;
+  height: 37.82vh;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gray;
+  position: relative;
+}
+.smallbackground:hover {
+  transition: 150ms;
+  cursor: pointer;
+  background-size: 120%;
 }

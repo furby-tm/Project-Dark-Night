@@ -1,14 +1,12 @@
 <!-- TODO: Declare 'Overview' - (What you missed) page structure -->
 <section>
-  <a id="featuredNews" class="featuredNews" *ngFor="let item of newNews | slice:0:1">
-    <section>
+  <a class="featuredNews" *ngFor="let item of newNews | slice:0:1">
         <div class="background" [style.background-image]="'url('+item.image+')'">
         <div class="fill">
         <header><h1><span class="highlight-container"><span class="highlight">{{item.name}}</span></span></h1></header>
       <p>{{item.description}}</p>
     </div>
     </div>
-    </section>
   </a>
 
   <div class="articles" *ngFor="let news of newNews | slice:1">

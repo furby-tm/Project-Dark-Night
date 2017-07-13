@@ -91,6 +91,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 li {
@@ -124,4 +125,13 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #4CAF50;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(1,1,1, 0.3);
+  background-blend-mode: darken;
+  width: 100vw;
+  height: 60vh;
 }
