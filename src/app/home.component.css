@@ -66,6 +66,7 @@ h1{
 
 .articles {
   margin: 5px;
+  margin-bottom: -11.7vh;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;

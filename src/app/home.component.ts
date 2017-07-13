@@ -4,6 +4,7 @@ import { News } from './news';
 import { OnInit } from '@angular/core';
 import { Pipe, PipeTransform } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
+import { Router, RouterModule } from '@angular/router';
 
 
 @Component({
@@ -17,7 +18,7 @@ export class HomeComponent implements OnInit{
   newNews: News[] = [];
     detail = "News";
 
-    constructor(private newsService: NewsService, private sanitizer: DomSanitizer){
+    constructor(private newsService: NewsService, private sanitizer: DomSanitizer, private router: Router){
         this.sanitizer = sanitizer;
       }
 
